@@ -1,0 +1,67 @@
+Je veux faire mon CV/Portfolio en mode Visual Novel
+On est dans 
+- Intro de démarrage du site (si possible)
+- un écran titre avec une porte qui s'ouvre sur une chambre virtuel qui me représente moi, qui je suis et mon parcours
+- Pluieurs objet me représente mon parcours :
+      - Mon Avatar, mon profile:
+          - Message ou Contact/Formulaire au moment ou tu veux quitter la chambre (retourner à l'ecran titre)
+          - Une petite présentation de moi
+          - Coordonnées
+          - Soft-Skills
+
+      - Papier/Photos :
+            - Expériences professionnels
+            - Expérience Associatives
+            
+      - Cadres et livres (étagère): 
+            - Formation
+            - Diplomes
+      - Bibliothèques
+            - Livres de Langues
+            - Skills (Python,HTML/CSS/SQL)
+      
+      - Bureau :
+            - Projet scolaires / persos (Hangman, Neweebs avec Wix)
+            - Projet Perso (VN avec le chat)
+
+      - Guitare et autres instrument
+            - Musique 
+            - Littérature
+            - Sport
+            - Jeux vidéo
+            - Art
+            - Dessin
+
+- Texte qui défile, ou image qui sont avec contours
+- un peu d'animation pour la fluidité et le style si possible sinon on garde en mode visual novel classique
+- Un Avatar qui me représente qui raconte et qui fait les commentaires
+
+
+
+
+
+1.Passioné par l'informatique, la technologie, l'art et tout ce qui touche à la création, après être passé par des études de commerce, j'ai eu la chance de rejoindre Epitech Nancy pour apprendre la programmation et enfin mettre en pratique ce qui m'anime depuis si longtemps. J'aime travailler en équipe mais aussi en autonomie sur des projets professionnels, associatifs et même personnels.
+
+2.    - Serveur au PopKfé | Septembre 2025 - Maintenant | Accueil et réception de la clientèle, service, animation
+      Agent de Fabrication chez CETAL | Juin 2025 - Août 2025 | Emballage de portail, clotûres, accessoires, taraudage, gestion des stocks
+      Employé polyvalent chez H&M | Décembre 2024 | Etiquetage, réception de commande et clientèle
+
+      - Base de Python, SQL, Bash, html, css, javascript. Maitrise de Krita (Logiciel de Dessin, d'animation et de Photomontage), Capcut (Montage Vidéo), parle Français, russe couramment, anglais B2 (Cambridge Certificate) | Allemand B1 | LSF A2, connaissance de Ableton
+
+
+3.    - Musique (Chant, Guitare, Piano, Kalimba, Violon, Basse, Composition) - Sport (Basketball, Musculation) - Art (Illustration, Photo, Vidéo, Théatre, Animation) - Jeux vidéo (Création et jouer)
+
+4. Travail d'équipe, communication, autonomie, prise d'initiative, polyvalent, éclectique, rigueur
+
+5. email : goldasvictor@gmail.com
+github : https://github.com/goldasvictor-epi
+linkedin : inexistant
+
+
+Palette de couleur : coloré mais épuré, sombre mais cozy (comme si on été accueilli chez quelqu'un le soir)
+
+Ambiance générale : Cozy/ chaleureux
+
+Nom du personnage : Moi donc Victor goldasvictor
+
+Possible de faire plusieursfichier sépéré plutot, à moins que ce soit mieux un ?

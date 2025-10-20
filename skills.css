@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,400italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.background-image {
+  width: 110%;
+  height: 110%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: url('skills.jpg') no-repeat left center / cover;
+  transition: transform 0.1s ease-out;
+  will-change: transform;
+}
+
+/* Titre principal */
+.text {
+  margin: 0;
+  padding: 0 20px;
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: 'Lobster Two', cursive;
+  font-style: italic;
+  z-index: 9;
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  opacity: 1;
+  animation: fadeIn 1s ease-in-out;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+/* Navigation */
+.chambres {
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+  align-content: center;
+  font-family: 'Lobster Two', cursive;
+  font-style: normal;
+  display: block;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  max-width: 300px;
+}
+
+.chambres ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chambres a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+  transition: transform 0.3s ease;
+}
+
+.chambres a:hover {
+  transform: translateX(5px);
+}
+
+/* Bloc de contenu */
+.content-box {
+  border: 1px solid white;
+  margin: 10px;
+  padding: 15px;
+  font-family: 'Lobster Two', cursive;
+  font-style: normal;
+  color: white;
+  position: absolute;
+  max-width: 500px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+}
+
+.content-box h2 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  font-size: 24px;
+}
+
+.content-box p,
+.content-box li {
+  line-height: 1.5;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.content-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.content-box ul li:before {
+  content: "• ";
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* === RESPONSIVE === */
+
+/* Tablettes */
+@media (max-width: 768px) {
+  html, body {
+    overflow-y: auto;
+  }
+  
+  .text {
+    font-size: clamp(40px, 8vw, 100px);
+    white-space: normal;
+    max-width: 80%;
+    text-align: center;
+    position: static;
+    transform: none;
+    margin: 40px auto 20px;
+    display: block;
+  }
+  
+  .chambres {
+    position: static;
+    margin: 10px auto;
+    max-width: 90%;
+  }
+  
+  .content-box {
+    position: static;
+    margin: 15px auto;
+    max-width: 90%;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+  .text {
+    font-size: clamp(28px, 7vw, 60px);
+    padding: 10px 15px;
+    max-width: 90%;
+    margin: 30px auto 15px;
+  }
+  
+  .chambres {
+    margin: 10px auto;
+    padding: 12px;
+    max-width: 95%;
+    font-size: 14px;
+  }
+  
+  .chambres a {
+    padding: 8px 0;
+    font-size: 14px;
+  }
+  
+  .content-box {
+    margin: 10px auto;
+    padding: 12px;
+    max-width: 95%;
+  }
+  
+  .content-box h2 {
+    font-size: 20px;
+  }
+  
+  .content-box p,
+  .content-box li {
+    font-size: 14px;
+  }
+}
+
+/* Très petits écrans */
+@media (max-width: 360px) {
+  .text {
+    font-size: clamp(22px, 6vw, 40px);
+    margin: 20px auto 10px;
+  }
+  
+  .chambres,
+  .content-box {
+    font-size: 12px;
+    padding: 10px;
+  }
+  
+  .content-box h2 {
+    font-size: 18px;
+  }
+  
+  .content-box p,
+  .content-box li {
+    font-size: 12px;
+  }
+}
+
+/* Mode paysage mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+  .text {
+    font-size: clamp(24px, 5vw, 50px);
+    margin: 20px auto 15px;
+  }
+}
